@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  #header {
+    /* position: absolute; */
+    z-index: 1;
+    width: 100%;
+  }
+  .navbar {
+    padding: 10px 0;
+  }
+  .navbar-brand {
+    font-weight: bolder;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgb(47, 121, 190) !important;
+  }
+  .nav-item {
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 10px;
+  }
+  .nav-link {
+    color: rgb(146, 93, 182) !important;
+    letter-spacing: 2px;
+    font-size: 1em;
+    font-weight: 700;
+  }
+  .nav-link:hover {
+    background: #dcdd !important ;
+    color: #262626 !important;
+    border-radius: 5px;
+    transition: all 0.6s ease 0s;
+  }
+  body{
+    background:radial-gradient(#94bbe9,#dfb0cf);
+}
+.box{
+    margin-top: 120px;
+    margin-left: 10%;
+    margin-bottom: 20%;
+    padding:5%;
+    /* border: 2px solid red; */
+    /* background:rgb(rgb(248, 242, 242,0.8)); */
+    background: rgb(255, 255, 255,0.8);
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    text-align: center;
+    width:80%;
+    transition: transform .3s;
+}
+.box:hover{
+  transform: translateY(5px);
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.6);
+}
+.box h2{
+  font-size: 2em;
+  color: rgba(103, 21, 180, 0.867);
+  padding: 5px;
+  font-weight: bold;
+  text-align:center;
+}
+.box p{
+  font-size: 1em;
+  color: rgba(23, 59, 160, 0.867);
+  /* text-transform: uppercase; */
+  font-weight:15px;
+  text-align: center;
+}
+
+
+#donate_form{
+  padding-left: 100px;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 100px;
+  margin-top: 20px;
+}
+@media screen and (min-device-width: 121px) and (max-device-width: 621px){
+  #donate_form
+{
+  padding-left: 10px;
+}
+}
